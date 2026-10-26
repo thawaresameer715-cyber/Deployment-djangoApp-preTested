@@ -30,6 +30,8 @@ Install Nginx reverse proxy to make this application available
 `sudo apt install nginx`
 
 ## Show databases
-'docker exec -it db_cont mysql -u root -p -e "SHOW DATABASES; USE test_db; SHOW TABLES; SELECT * FROM api_note;"'
+```
+'docker exec -it db_cont mysql -u root -p -e "SHOW DATABASES; USE test_db; SHOW TABLES; SELECT * FROM api_note;"
+```
 
 Password: root
